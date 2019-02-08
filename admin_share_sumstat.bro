@@ -20,18 +20,20 @@ event bro_init() {
 			  $threshold=3.0,
 			  $threshold_crossed(key: SumStats::Key, result: SumStats::Result) = {
 			  	local r = result["admin.share.connect"];
-			  	print fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 15 mins.",key$host,r$num);
+                	  	NOTICE([$note=SMB::Admin_Share_Connection,
+                	  	$msg = fmt("%s's admin share was accessed at least 3 times in 15 mins.",key$host),
+                	  	$sub = fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 15 mins.",key$host,r$num)]);
 			  }]);
 }
 
 event smb2_tree_connect_request(c: connection, hdr: SMB2::Header, path: string) {
 	if ("IPC$" in path || "ADMIN$" in path || "C$" in path) {
-		SumStats::observe("admin.share.connect", [$host=c$id$resp_h], [$str=c$ntlm$server_dns_computer_name]);
+		SumStats::observe("admin.share.connect", [$host=c$id$resp_h], [$str=path]);
 	}
 }
 
 event smb1_tree_connect_andx_request(c: connection, hdr: SMB1::Header, path: string, service: string) {
 	if ("IPC$" in path || "ADMIN$" in path || "C$" in path) {
-		SumStats::observe("admin.share.connect", [$host=c$id$resp_h], [$str=c$ntlm$server_dns_computer_name]);
+		SumStats::observe("admin.share.connect", [$host=c$id$resp_h], [$str=path]);
 	}
 }
