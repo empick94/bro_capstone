@@ -12,17 +12,17 @@ event bro_init() {
 	local r1 = SumStats::Reducer($stream="admin.share.connect",$apply=set(SumStats::SUM));
 
 	SumStats::create([$name="admin.share.connect",
-			  $epoch=15mins,
+			  $epoch=15secs,
 			  $reducers=set(r1),
 			  $threshold_val(key: SumStats::Key, result: SumStats::Result) = {
 			  	return result["admin.share.connect"]$num+0.0;
 			  },
-			  $threshold=3.0,
+			  $threshold=10.0,
 			  $threshold_crossed(key: SumStats::Key, result: SumStats::Result) = {
 			  	local r = result["admin.share.connect"];
                 	  	NOTICE([$note=SMB::Admin_Share_Connection,
-                	  	$msg = fmt("%s's admin share was accessed at least 3 times in 15 mins.",key$host),
-                	  	$sub = fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 15 mins.",key$host,r$num)]);
+                	  	$msg = fmt("%s's admin share was accessed at least 10 times in 15 secs.",key$host),
+                	  	$sub = fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 15 secs.",key$host,r$num)]);
 			  }]);
 }
 
