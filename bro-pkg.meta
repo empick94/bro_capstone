@@ -1,0 +1,3 @@
+[package]
+description = BRO capstone project to detect lateral movement across a network focusing on SMB, NTLM, and KERBEROS logs.
+tags = ntlm, kerberos, smb
