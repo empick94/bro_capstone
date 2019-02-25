@@ -1,5 +1,6 @@
 @load base/frameworks/files
 @load base/frameworks/notice
+@load base/frameworks/sumstats
 @load frameworks/files/hash-all-files
 
 export {
