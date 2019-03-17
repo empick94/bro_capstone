@@ -22,7 +22,7 @@ event bro_init() {
 			  	local r = result["admin.share.connect"];
                 	  	NOTICE([$note=SMB::Admin_Share_Connection,
                 	  	$msg = fmt("%s's admin share was accessed at least %s times in 10 secs.",key$host, r$num),
-                	  	$sub = fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 15 secs.",key$host,r$num)]);
+                	  	$sub = fmt("%s had at least %d connection(s) to admin shares (IPC$, ADMIN$, or C$) in 10 secs.",key$host,r$num)]);
 			  }]);
 }
 
