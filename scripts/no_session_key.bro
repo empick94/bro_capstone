@@ -17,11 +17,3 @@ event ntlm_authenticate(c: connection, request: NTLM::Authenticate) {
 	}
 }
 
-event ntlm_negotiate(c: connection, request: NTLM::Negotiate) {
-	if ( request$flags$negotiate_target_info ) {
-		NOTICE([$note=NTLM::Negotiate_Target_Info,
-                $msg = "negotiate_target_info is true during NTLM NEGOTIATE EVENT",
-                $sub = fmt("%s authenticated to %s with while negotiating_target_info equals true in negotiate event", c$id$orig_h, c$id$resp_h),
-                $conn = c]);
-	}
-}
