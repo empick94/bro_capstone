@@ -1,0 +1,3 @@
+These folders contain a sample (the most developed/useful) of our work with python and machine learning on our dataset.
+
+Due to the sensitive nature of our data, these notebooks have had their associated datasets removed and all their outputs stripped as well as some sensitive logic. They should still be useful for understanding our ML process and what we learned. Our project report also goes into more detail in describing or ML process, findings, and key learnings.
