@@ -1,0 +1,34 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2019-04-08-18-08-48
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1549386413.683859	CqqjW52Sv9pcssLAUe	10.3.0.7	33947	10.3.0.1	53	udp	5680	-	1.debian.pool.ntp.org	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1549386413.683861	CqqjW52Sv9pcssLAUe	10.3.0.7	33947	10.3.0.1	53	udp	37693	-	1.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	2	SERVFAIL	F	F	T	F	0	-	-	T
+1549386422.396395	CJOOyR2IskhxAnwrl	10.3.0.5	55481	10.3.0.1	53	udp	29398	0.000102	win-35iarg9sngc.iscapstone.local	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	10.3.0.1	3600.000000	F
+1549386415.478827	Ch5XhNQ6lxW2mE2vk	10.3.0.1	61986	202.12.27.33	53	udp	49380	-	1.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1549386415.479051	C2rzIiM0vaVScUhr3	10.3.0.1	64125	202.12.27.33	53	udp	54335	-	1.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1549386418.688904	C48wYI3cnIKoOu1Zbc	10.3.0.1	64165	8.8.8.8	53	udp	43615	-	2.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1549386418.688991	CaItKf2WThNygYo7E	10.3.0.1	63985	8.8.8.8	53	udp	20543	-	2.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	T	F	0	-	-	F
+1549386418.688729	CIQzy344GkUKhBaOy7	10.3.0.7	57530	10.3.0.1	53	udp	46779	-	2.debian.pool.ntp.org	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1549386418.688730	CIQzy344GkUKhBaOy7	10.3.0.7	57530	10.3.0.1	53	udp	18888	-	2.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	2	SERVFAIL	F	F	T	F	0	-	-	T
+1549386421.916979	CFdkDH28w2XOHVi5Oa	10.3.0.1	62308	198.41.0.4	53	udp	12443	-	2.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1549386421.917143	CZtleGTaSoDv4gumj	10.3.0.1	62758	128.63.2.53	53	udp	6516	-	2.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1549386424.601104	ClgUrh104HK4Dj4A2e	fe80::2043:f0f0:c684:4899	55795	ff02::1:3	5355	udp	42319	-	250.255.255.239.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1549386425.017542	ClgUrh104HK4Dj4A2e	fe80::2043:f0f0:c684:4899	55795	ff02::1:3	5355	udp	42319	-	250.255.255.239.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1549386424.602569	CI01HPcARREBhRlEc	172.16.1.138	55795	224.0.0.252	5355	udp	42319	-	250.255.255.239.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1549386425.018939	CI01HPcARREBhRlEc	172.16.1.138	55795	224.0.0.252	5355	udp	42319	-	250.255.255.239.in-addr.arpa	1	C_INTERNET	12	PTR	-	-	F	F	F	F	0	-	-	F
+1549386425.542139	CxJOkJ3CIz6S8cFP18	10.3.0.1	62308	202.12.27.33	53	udp	12443	-	2.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1549386425.542295	Cp5p5620UYoEHqF8Ja	10.3.0.1	62758	202.12.27.33	53	udp	6516	-	2.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+1549386423.691718	CIQzy344GkUKhBaOy7	10.3.0.7	57530	10.3.0.1	53	udp	46779	-	2.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1549386423.691719	CIQzy344GkUKhBaOy7	10.3.0.7	57530	10.3.0.1	53	udp	18888	-	2.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	T	F	0	-	-	F
+1549386428.696979	Cv0nwN8VubFzSJWG4	10.3.0.7	43904	10.3.0.1	53	udp	63125	-	3.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	T	F	0	-	-	F
+1549386428.696977	Cv0nwN8VubFzSJWG4	10.3.0.7	43904	10.3.0.1	53	udp	40316	-	3.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1549386428.697262	CNE3ZR2rGI6NqsWapk	10.3.0.1	62086	8.8.8.8	53	udp	44840	-	3.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1549386428.697572	CNUU134v2gqNsZB8Fb	10.3.0.1	63713	8.8.8.8	53	udp	24153	-	3.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	T	F	0	-	-	F
+1549386431.900997	CD9uCv13tSoka8Bfd6	10.3.0.1	62616	192.58.128.30	53	udp	26515	-	3.debian.pool.ntp.org	1	C_INTERNET	1	A	-	-	F	F	F	F	0	-	-	F
+1549386431.901435	CtM2qB161PmAEAWC13	10.3.0.1	62209	192.228.79.201	53	udp	44287	-	3.debian.pool.ntp.org	1	C_INTERNET	28	AAAA	-	-	F	F	F	F	0	-	-	F
+#close	2019-04-08-18-08-48

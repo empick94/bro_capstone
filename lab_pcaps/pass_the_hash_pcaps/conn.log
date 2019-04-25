@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2019-04-08-18-11-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+1508959117.806090	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	tcp	smb,dce_rpc,gssapi,ntlm	1.357800	8471	2812	RSTR	-	-	0	ShADdFar	38	10455	35	4628	-
+1508959117.825554	C1yX784PsvwpiaHkfd	192.168.10.31	49214	192.168.10.10	49158	tcp	dce_rpc	11.154095	1108	1032	SF	-	-	0	ShADdFaf	7	1400	5	1244	-
+1508959119.101573	CxTztT2jue2jrFhVHg	192.168.10.31	49215	192.168.10.50	4444	tcp	-	4.221672	7431	413954	S1	-	-	0	ShAdWDa	51	9495	304	427457	-
+#close	2019-04-08-18-11-50

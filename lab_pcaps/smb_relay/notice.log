@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2019-04-02-15-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	interval	bool	string	string	string	double	double
+1550278553.448671	-	-	-	-	-	-	-	-	-	SMB::Admin_Share_Connection	10.3.0.5's admin share was accessed at least 3 times in 10 secs.	10.3.0.5 had at least 3 connection(s) to admin shares (IPC$, ADMIN$, or C$) in 10 secs.	-	-	-	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1550278581.389288	-	-	-	-	-	-	-	-	-	SMB::Admin_Share_Connection	10.3.0.5's admin share was accessed at least 3 times in 10 secs.	10.3.0.5 had at least 3 connection(s) to admin shares (IPC$, ADMIN$, or C$) in 10 secs.	-	-	-	-	-	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2019-04-02-15-52-06

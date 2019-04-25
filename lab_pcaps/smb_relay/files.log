@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2019-04-02-15-52-06
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1550278578.603739	FyvOT04E1GRhcN9HZi	10.3.0.7	10.3.0.5	CmPXhZ1XYKDn99X5m7	SMB	0	PE	application/x-dosexec	Windows\\Temp\\Runas.exe	0.000000	-	T	9728	-	0	0	F	-	-	-	-	-	-	-
+1550278581.610626	FIfDm546jv8DNnA8Mh	10.3.0.5	10.3.0.7	CmPXhZ1XYKDn99X5m7	SMB	0	(empty)	text/plain	-	0.000000	-	F	492	-	0	0	F	-	-	-	-	-	-	-
+#close	2019-04-02-15-52-06

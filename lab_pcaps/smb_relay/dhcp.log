@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2019-04-02-15-52-06
+#fields	ts	uids	client_addr	server_addr	mac	host_name	client_fqdn	domain	requested_addr	assigned_addr	lease_time	client_message	server_message	msg_types	duration
+#types	time	set[string]	addr	addr	string	string	string	string	addr	addr	interval	string	string	vector[string]	interval
+1550278566.903089	CmCydI9Z4OfcUq91d	-	-	00:15:17:7b:7d:3d	STATION03	-	-	-	-	-	-	-	DISCOVER,DISCOVER,DISCOVER,DISCOVER	17.000746
+#close	2019-04-02-15-52-06

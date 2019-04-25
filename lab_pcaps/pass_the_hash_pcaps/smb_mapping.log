@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smb_mapping
+#open	2019-04-08-18-11-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	path	service	native_file_system	share_type
+#types	time	string	addr	port	addr	port	string	string	string	string
+1508959117.833642	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	\\\\192.168.10.31\\IPC$	IPC	-	PIPE
+1508959117.836204	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	\\\\192.168.10.31\\ADMIN$	A:	NTFS	DISK
+1508959117.851610	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	\\\\192.168.10.31\\IPC$	IPC	-	PIPE
+#close	2019-04-08-18-11-50

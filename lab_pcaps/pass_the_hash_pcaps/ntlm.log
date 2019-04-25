@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2019-04-08-18-11-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success	hostname_entropy
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool	double
+1508959117.814467	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	JeffV	ybaARon55QykXrgu	contoso.local	VICTIM-PC	Victim-PC.contoso.local	contoso.local	-	3.75
+#close	2019-04-08-18-11-50

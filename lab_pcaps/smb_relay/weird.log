@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2019-04-02-15-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1550278548.041453	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1550278553.416534	COU12j1qpcRffHOjE	10.3.0.5	50418	10.3.0.1	49158	unknown_dce_rpc_auth_type_68	-	F	bro
+#close	2019-04-02-15-52-06

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2019-03-27-19-15-47
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1553189069.812684	C5cK753iyXMPC1pPM1	10.3.0.2	49735	10.3.0.1	445	jacob	DESKTOP-J0RUBVR	ISCAPSTONE	WIN-35IARG9SNGC	WIN-35IARG9SNGC.iscapstone.local	iscapstone.local	T
+#close	2019-03-27-19-15-47

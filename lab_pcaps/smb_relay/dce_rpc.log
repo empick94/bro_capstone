@@ -1,0 +1,21 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2019-04-02-15-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1550278553.415025	CY8ImFlSW6W9SeXD6	10.3.0.5	50417	10.3.0.1	135	0.000692	135	epmapper	ept_map
+1550278553.417380	COU12j1qpcRffHOjE	10.3.0.5	50418	10.3.0.1	49158	0.001441	49158	netlogon	NetrLogonSameLogonWithFlags
+1550278580.149940	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.005362	\\pipe\\ntsvcs	svcctl	OpenSCManagerW
+1550278580.158725	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.102940	\\pipe\\ntsvcs	svcctl	CreateServiceW
+1550278580.264135	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000129	\\pipe\\ntsvcs	svcctl	OpenServiceW
+1550278580.266349	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.108830	\\pipe\\ntsvcs	svcctl	StartServiceW
+1550278580.377369	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000148	\\pipe\\ntsvcs	svcctl	QueryServiceStatus
+1550278580.377987	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000148	\\pipe\\ntsvcs	svcctl	QueryServiceStatus
+1550278580.378508	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000079	\\pipe\\ntsvcs	svcctl	QueryServiceStatus
+1550278580.380699	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000081	\\pipe\\ntsvcs	svcctl	ControlService
+1550278580.382818	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000180	\\pipe\\ntsvcs	svcctl	DeleteService
+1550278580.385089	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	0.000085	\\pipe\\ntsvcs	svcctl	CloseServiceHandle
+#close	2019-04-02-15-52-06

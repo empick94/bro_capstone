@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2019-04-02-15-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	rtt	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	interval	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1550278515.625936	CA2gKUACpRFk2h07l	10.3.0.5	50531	10.3.0.1	53	udp	38741	-	ctldl.windowsupdate.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1550278524.828292	CwUJF22EWibXKJrlvj	10.3.0.5	61881	10.3.0.1	53	udp	15144	-	ctldl.windowsupdate.com	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1550278519.656717	CA2gKUACpRFk2h07l	10.3.0.5	50531	10.3.0.1	53	udp	38741	-	ctldl.windowsupdate.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1550278527.906620	CwUJF22EWibXKJrlvj	10.3.0.5	61881	10.3.0.1	53	udp	15144	-	ctldl.windowsupdate.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1550278531.953668	CwUJF22EWibXKJrlvj	10.3.0.5	61881	10.3.0.1	53	udp	15144	-	ctldl.windowsupdate.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1550278548.049145	CpZUO1cjsOMplBUE4	10.3.0.1	137	10.3.0.255	137	udp	52397	-	NATES-PC	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1550278548.287280	CpZUO1cjsOMplBUE4	10.3.0.1	137	10.3.0.255	137	udp	52398	-	NATES-PC	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1550278548.049230	CafJGy4WWp5FXrBaAb	10.3.0.1	137	10.3.0.5	137	udp	52397	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+1550278548.287322	CafJGy4WWp5FXrBaAb	10.3.0.1	137	10.3.0.5	137	udp	52398	-	-	-	-	-	-	0	NOERROR	F	F	F	F	0	-	-	F
+#close	2019-04-02-15-52-06

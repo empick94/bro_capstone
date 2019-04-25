@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2019-04-08-18-08-48
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted	extracted_cutoff	extracted_size
+#types	time	string	set[addr]	set[addr]	set[string]	string	count	set[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string	bool	count
+1549386423.943414	FCaezd4iZ9T2vj3B19	10.3.0.1	10.3.0.5	CNQ4srRH4pvX9YrL4	SMB	0	(empty)	text/ini	iscapstone.local\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	23	23	0	0	F	-	-	-	-	-	-	-
+1549386423.954052	Ft5jdN3tLeY23rVKg2	10.3.0.1	10.3.0.5	CNQ4srRH4pvX9YrL4	SMB	0	(empty)	text/ini	iscapstone.local\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Microsoft\\Windows NT\\SecEdit\\GptTmpl.inf	0.000000	-	F	1186	1186	0	0	F	-	-	-	-	-	-	-
+1549386423.956469	FXEeB41xMu1EfbctFd	10.3.0.1	10.3.0.5	CNQ4srRH4pvX9YrL4	SMB	0	(empty)	application/vnd.ms-pol	iscapstone.local\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\Machine\\Registry.pol	0.000000	-	F	2796	2796	0	0	F	-	-	-	-	-	-	-
+1549386429.521972	FCaezd4iZ9T2vj3B19	10.3.0.1	10.3.0.5	CNQ4srRH4pvX9YrL4	SMB	0	(empty)	text/ini	iscapstone.local\\Policies\\{31B2F340-016D-11D2-945F-00C04FB984F9}\\gpt.ini	0.000000	-	F	23	23	0	0	F	-	-	-	-	-	-	-
+#close	2019-04-08-18-08-48

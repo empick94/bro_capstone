@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dce_rpc
+#open	2019-04-08-18-11-50
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	rtt	named_pipe	endpoint	operation
+#types	time	string	addr	port	addr	port	interval	string	string	string
+1508959117.826438	C1yX784PsvwpiaHkfd	192.168.10.31	49214	192.168.10.10	49158	0.002721	49158	netlogon	NetrLogonSameLogonWithFlags
+1508959117.876730	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	0.002361	\\pipe\\ntsvcs	svcctl	OpenSCManagerW
+1508959117.901875	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	0.012011	\\pipe\\ntsvcs	svcctl	CreateServiceW
+1508959117.916094	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	0.007621	\\pipe\\ntsvcs	svcctl	StartServiceW
+1508959117.931694	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	0.006907	\\pipe\\ntsvcs	svcctl	DeleteService
+1508959117.940884	CEkcQq3cmcOJB9gr2h	192.168.10.50	46785	192.168.10.31	445	0.002145	\\pipe\\ntsvcs	svcctl	CloseServiceHandle
+#close	2019-04-08-18-11-50

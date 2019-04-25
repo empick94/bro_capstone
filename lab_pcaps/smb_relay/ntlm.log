@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ntlm
+#open	2019-04-02-15-52-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	username	hostname	domainname	server_nb_computer_name	server_dns_computer_name	server_tree_name	success
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	bool
+1550278548.291346	CX2Qoh4SvvxClVi828	10.3.0.1	50959	10.3.0.5	139	-	WIN-35IARG9SNGC	-	NATES-PC	Nates-PC.iscapstone.local	iscapstone.local	T
+1550278548.190317	Caw6ou2OKSHwhD9D25	10.3.0.1	50958	10.3.0.5	139	-	WIN-35IARG9SNGC	-	NATES-PC	Nates-PC.iscapstone.local	iscapstone.local	-
+1550278553.377055	CmPXhZ1XYKDn99X5m7	10.3.0.7	42896	10.3.0.5	445	Administrator	WIN-35IARG9SNGC	ISCAPSTONE	NATES-PC	Nates-PC.iscapstone.local	iscapstone.local	-
+#close	2019-04-02-15-52-06
